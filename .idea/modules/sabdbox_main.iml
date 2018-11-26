@@ -3,9 +3,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_10">
     <output url="file://$MODULE_DIR$/../../sabdbox/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../sabdbox/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../sabdbox/src/main/java" isTestSource="false" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../sabdbox/src/main" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
