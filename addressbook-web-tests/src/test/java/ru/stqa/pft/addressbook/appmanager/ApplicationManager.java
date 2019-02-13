@@ -11,6 +11,7 @@ public class ApplicationManager {
   private SessionHelper sessionHelper;
   private NavigationHelper navigationHelper;
   private GroupHelper groupHelper;
+  private ContactHelper contactHelperl;
 
   public void init() {
     wd = new ChromeDriver();
@@ -20,6 +21,7 @@ public class ApplicationManager {
     navigationHelper = new NavigationHelper(wd);
     sessionHelper = new SessionHelper(wd);
     sessionHelper.login("admin", "secret");
+    contactHelperl = new ContactHelper(wd);
   }
 
   public void stop() {
@@ -33,4 +35,8 @@ public class ApplicationManager {
   public NavigationHelper getNavigationHelper() {
     return navigationHelper;
   }
+
+  public ContactHelper getContactHelperl() {return contactHelperl;}
+
+
 }
